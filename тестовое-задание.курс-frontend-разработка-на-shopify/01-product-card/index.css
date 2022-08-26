@@ -1,0 +1,131 @@
+.products {
+  display: block;
+  background: #F6F6F6;
+  height: 694px;
+  padding: 40px 420px 0;
+  
+}
+
+.card__new {
+  text-transform: uppercase;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  color: #2F2F2F;
+  background: #FDCFF3;
+  border-radius: 8px;
+  padding: 2px 16px;
+  position: absolute;
+  top: 16px;
+  left: 12px;
+}
+
+.card__last {
+  text-transform: uppercase;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  color: #2F2F2F;
+  background: #FFCF56;
+  border-radius: 8px;
+  padding: 2px 16px;
+  position: absolute;
+  top: 16px;
+  left: 134px;
+
+}
+
+.products__header {
+  font-family: 'Arial';
+  font-weight: 900;
+  font-style: normal;
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.products__menu {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.menu__card {
+  background: #FFFFFF;
+  width: 380px;
+  border-radius: 12px;
+  position: relative;
+  box-shadow: 0px 0px 45px -4px rgba(0, 0, 0, 0.18);
+  border-radius: 12px;
+}
+
+.menu__card img {
+  border-radius: 12px 12px 0 0;
+}
+
+.card__header {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  color: #2F2F2F;
+  margin: 20px 20px;
+  text-align: start;
+}
+
+.card__descr {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2F2F2F;
+  text-align: left;
+  margin: 0 20px 20px 20px;
+  height: 96px;
+}
+
+.menu__card button {
+  box-sizing: border-box;
+  border: 2px solid #42940F;
+  border-radius: 8px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  align-items: center;
+  text-align: center;
+  color: #42940F;
+  margin: 0 24px;
+  width: 332px;
+  height: 48px;
+  margin-bottom: 24px;
+}
+
+.menu__card button:disabled {
+  background: #4E4E4E;
+  color: #fff;
+  border: #4E4E4E;
+}
+
+.menu__card button:hover {
+  background: #42940F;
+  color: #fff;
+}
+
+.menu__card button:active {
+  background: #1F5200;
+  color: #fff;
+}
